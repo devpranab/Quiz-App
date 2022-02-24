@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- FontAwesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- 1st page start -->
+    <div class="container">
+        <div class="myQuizApp">
+            <div class="img">
+                <img src="image/quizapp.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Quiz App With Fixed Time</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error rem veniam culpa corrupti minima quod qui eligendi commodi, pariatur aliquam numquam!</p>
+                <h3>Quiz App With Fixed Time</h3>
+                <p>Lorem ipsum, dolor sit adipisicing elit. Omnis, id.</p>
+            </div>
+            <div class="myBtn">
+                <button>Start Quiz</button>
+
+            </div>
+        </div>
+    </div>
+<!-- 1st page end -->
+
+<!-- 2nd page start -->
+<div class="rulesBox">
+    <div class="rulesTitle">
+        <h3>Some Rules of This Quiz</h3>
+    </div>
+    <div class="rulesList">
+        <ol>
+            <li>You will have only <span>15 seconds</span> per each question.</li>
+            <li>Once you can select your answer, it can't be undone.</li>
+            <li>You can't select any option once time goes off.</li>
+            <li>You can't exit from the quiz while you're playing.</li>
+            <li>You'll get points on the basis of your correct answer.</li>
+        </ol>
+    </div>
+    <div class="rulestwoBtn">
+        <button class="exitQuizBtn">exitQuiz</button>
+        <button class="continueBtn">continue</button>
+    </div>
+</div>
+<!-- 2nd page end -->
+
+<!-- 3rd page start -->
+     <div class="questions-sec">
+    <div class="q-header">
+    <div class="q-title">Start Exam</div>
+    <div class="q-timeCount">
+        <div class="q-time-left">Time Left</div>
+        <div class="q-time-right">15 seconds</div>
+    </div>
+    <div class="time-lines"></div>
+    </div>
+    <div class="q-body">
+    <div class="q-text">
+             <!-- <h3>01. What Does HTML Stand For?</h3> -->
+        </div>
+        <div class="q-myOptions">
+           <!-- bring by js dynamicly -->
+
+        </div>
+    </div>
+    <div class="q-footer">
+        <div class="total-q">
+            <!-- <p>1 of 5 Questions</p> -->
+        </div>
+        <button class="nextBtn">Next Que.</button>
+    </div>
+</div> 
+
+<!-- 3rd page end -->
+
+<!-- for js tick icon start -->
+<div class="tick icon"></i></div>
+<div class="cross icon"></i></div>
+<!-- for js tick icon end -->
+
+<!-- 4rth page start -->
+<div class="resultPage">
+    <div class="resultImg">
+        <img src="image/New Project (61)(120).jpg" alt="">
+    </div>
+    <div class="resultText">
+        You have finish quiz game
+    </div>
+    <div class="resultScore">
+         <span>Carry on! You got <p>0</p> out of <p>5</p> </span>
+    </div>
+    <div class="resultBtn">
+        <button class="restartBtn">Replay</button>
+        <button class="quitQuizBtn">Quit Quiz</button>
+
+    </div>
+</div>
+<!-- 4rth page end -->
+
+<!-- raw js codes file -->
+<script src="script/questions.js"></script>
+<script src="script/app.js"></script>
+</body>
+</html>
